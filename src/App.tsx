@@ -29,7 +29,7 @@ const App = () => {
 
 	const theTitle = () => {
 		if (matchHome) {
-			return "Arcryptian NFT staking";
+			return "DDAC NFT staking";
 		} else {
 			return "NFT staking on the Solana Blockchain";
 		}

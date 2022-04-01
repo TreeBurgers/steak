@@ -46,10 +46,10 @@ const StakingInstructions: React.FC<instructionProps> = ({index}) => {
 	index==0?(
     <Article className="mt-7 p-6">
       <div className="mr-5 pl-14 pr-14 text-xl">
-        Arcryptian NFT Staking : <br /><br />
+	  DDAC NFT Staking : <br /><br />
 		<ul className="list-none md:list-disc">
 			<li>Stake reward is increased based on number of nfts you stake</li><br/>  
-          <li>Clicking the 'Withdraw' button in 'Your Staking List' transfers total $ARC you earned till date to your wallet</li><br/>
+          <li>Clicking the 'Withdraw' button in 'Your Staking List' transfers total $BREAD you earned till date to your wallet</li><br/>
           <li>Clicking 'Unstake' button in 'Your Staking List' transfers that particular NFT to your wallet </li><br/>
         </ul>
       </div>
@@ -58,7 +58,7 @@ const StakingInstructions: React.FC<instructionProps> = ({index}) => {
 		<Article className="mt-7 p-6">
 		<div className="mr-5 pl-14 pr-14 text-xl" style={{textAlign:"center",paddingLeft:"0px",paddingRight:"0px"}}>
 		  <span style={{whiteSpace: "nowrap"}}>NUMBER OF NFTS STAKED : &nbsp; {doge} &nbsp; &nbsp;&nbsp;</span>
-		  <span style={{whiteSpace: "nowrap"}}>$ARC WITHDRAWN : &nbsp; {withdrawn.toFixed(2)} &nbsp;</span> 
+		  <span style={{whiteSpace: "nowrap"}}>$BREAD WITHDRAWN : &nbsp; {withdrawn.toFixed(2)} &nbsp;</span> 
 		</div>
 	  </Article>
 

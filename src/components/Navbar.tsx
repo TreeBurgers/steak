@@ -6,16 +6,16 @@ const Navbar: React.FC = () => {
 		<Nav className="z-20 bg-black sm:bg-transparent relative top-0 flex sm:flex-row flex-col items-center justify-between text-white sm:pl-2 sm:pr-6 pt-1 pb-6">
 			<div className="flex flex-wrap marginLeft:200px">
 				
-				<a href="https://www.arcryptiannft.com/">
-				 <img className="nav-logo" src="https://www.arcryptiannft.com/img/logo.png" alt="" style={{ marginLeft:"-10%", alignItems:"right", width:"40%", padding: "0 0 0 0" }}  />
+				<a href="https://ddapeclub.io/">
+				 <img className="nav-logo" src="https://ddacstaking.vercel.app/img/logo.png" alt="" style={{ marginLeft:"-10%", alignItems:"right", width:"40%", padding: "0 0 0 0" }}  />
 			
 			</a>
 			</div>
 			<div className="flex flex-wrap sm:justify-start justify-center md:mt-0 mt-4" style={{ alignItems:"right", padding: "0 0 0 0" }}>
-				<a href="https://www.arcryptiannft.com/">HOME</a>
-				<a href="https://www.arcryptiannft.com/blackpaper/bp1.0.pdf" className="mx-5">BLACK PAPER</a>
-				<a href="https://www.arcryptiannft.com/#link3" className="mx-5">ROAD MAP</a>
-				<a href="https://www.arcryptiannft.com/#link4" className="mx-5">FAQ</a>
+				<a href="https://ddapeclub.io/">HOME</a>
+				<a href="https://ddapeclub.io/" className="mx-5">BLACK PAPER</a>
+				<a href="https://ddapeclub.io/" className="mx-5">ROAD MAP</a>
+				<a href="https://ddapeclub.io/" className="mx-5">FAQ</a>
 			</div>
 		</Nav>
 	);

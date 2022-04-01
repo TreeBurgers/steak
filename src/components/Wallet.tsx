@@ -19,7 +19,7 @@ export const Wallet: FC = () => {
 
 	async function fetchNonce() {
 
-	  const response = await fetch('https://arcryptian-backend.vercel.app/api/login');
+	  const response = await fetch('https://degen-dao-backend.vercel.app/api/login');
 	
 	  if(response.status != 200)
 		throw new Error("nonce could not be retrieved");
@@ -28,7 +28,7 @@ export const Wallet: FC = () => {
 
 	  const cookies = new Cookies();
 
-	  cookies.set('auth-nonce', nonce, { path: '/' , domain: 'https://arcryptian-backend.vercel.app'});
+	  cookies.set('auth-nonce', nonce, { path: '/' , domain: 'https://degen-dao-backend.vercel.app'});
 	  
 	  return nonce;
 

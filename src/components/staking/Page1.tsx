@@ -206,7 +206,7 @@ const StakingPage1: React.FC = () => {
 								</div>
 							) : (
 								<div style={{ fontWeight: "bolder" }}>
-									{importLoading ? "Woofing..." : "Click to import Arcryptian NFTs from your wallet"}
+									{importLoading ? "Woofing..." : "Click to import DDAC NFTs from your wallet"}
 								</div>
 							)}
 						</div>

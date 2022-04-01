@@ -217,7 +217,7 @@ const StakingPage2 = () => {
 						<th style={{textAlign:"left"}} colSpan={2}>Staked NFT</th>
 						<th>Type</th>
 						<th>Date Staked</th>
-						<th>&cong;$ARC Earned</th>
+						<th>&cong;$BREAD Earned</th>
 						<th>Rate</th>
 					</tr>
 				</thead>
@@ -252,7 +252,7 @@ const StakingPage2 = () => {
 										() => {
 
 											info(
-												"Transfering your $ARC tokens to your wallet ",
+												"Transfering your $BREAD tokens to your wallet ",
 												90
 											);
 										},
@@ -301,7 +301,7 @@ const StakingPage2 = () => {
 								) : (
 									<div className="relative flex flex-col items-center">
 										<Icon icon="unstake-btn" width={150}/>
-										<p className="top-1 absolute" style={{top:"0.75rem"}}>Withdraw $ARC</p>
+										<p className="top-1 absolute" style={{top:"0.75rem"}}>Withdraw $BREAD</p>
 									</div>
 								)}
 							</button>

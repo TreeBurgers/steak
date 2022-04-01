@@ -287,7 +287,7 @@ export const StakeRow : React.FC <StakeRowProps> = ({pubkey, index,
             copy(nftMint);
         }}><CopyOutlined /></Button>
         </td>
-        <td style={{width:"10%", margin:"10px"}}>{forMonth === 0 ? "Arcryptian" : "Supplementary"}</td>
+        <td style={{width:"10%", margin:"10px"}}>{forMonth === 0 ? "DDAC" : "Supplementary"}</td>
         <td title={(dateStaked?.toLocaleString() ?? "none" ) + " first staked on "+ created?.toLocaleString() ?? ""}
         style={{textAlign :"justify", width:"10%", margin:"10px", paddingLeft:"4vw"}}>
         {dateStaked ? timeSince(dateStaked) : ""}
@@ -295,7 +295,7 @@ export const StakeRow : React.FC <StakeRowProps> = ({pubkey, index,
         <td style={{textAlign:"justify", width:"10%", margin:"10px", paddingLeft:"2vw"}}>
         {tokenEarned.toFixed(5)} 
         </td>
-        <td style={{width:"10%", margin:"10px"}}>{rate} $ARC / day</td> 
+        <td style={{width:"10%", margin:"10px"}}>{rate} $BREAD / day</td> 
             <td style={{width:"10%", margin:"10px"}}>         
                 <Button className="stakeButton" onClick={async ()=>{await buttonAction();}}>
                 {working ? <Spin size="small"/> : <span>{stat === 1 ? "Stake" : "Unstake" }</span>}    

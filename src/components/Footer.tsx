@@ -15,7 +15,7 @@ const Footer: React.FC<FooterProps> = () => {
 				<div className="flex items-end sm:mt-0 mb-2">
 					<a
 						className="block m-0 text-white underline"
-						href="https://twitter.com/arcryptian_nft"
+						href="https://twitter.com/DDApeClub"
 						target="_blank"
 						rel="noreferrer"
 					>
@@ -23,7 +23,7 @@ const Footer: React.FC<FooterProps> = () => {
 					</a>
 					<a
 						className="block ml-8"
-						href="https://discord.com/invite/ZugZB8QKmB"
+						href="https://discord.com/invite/ddac"
 						target="_blank"
 						rel="noreferrer"
 					>

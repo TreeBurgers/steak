@@ -11,7 +11,7 @@ import { programId } from '../utils/ids';
 
 export const SYS_ACC_DATA_SIZE : number = PUBKEY_BYTES + PUBKEY_BYTES + PUBKEY_BYTES + 8;
 
-export const SYS_SEED = "ARCESCROW03";
+export const SYS_SEED = "DEGENDAOAPEESCROW03";
 
 
 export default function useDcSys() {
@@ -112,7 +112,7 @@ export default function useDcSys() {
         }
 
 
-        let pdaAccount = await web3.PublicKey.findProgramAddress([new TextEncoder().encode("arcescrow")], programId);
+        let pdaAccount = await web3.PublicKey.findProgramAddress([new TextEncoder().encode("degendaoapeescrow")], programId);
 
         let accounts : Array<web3.AccountMeta> = [
             { pubkey: publicKey, isSigner: true     , isWritable: false },
