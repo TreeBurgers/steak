@@ -1,0 +1,76 @@
+@media only screen and (max-device-width: 768px){
+
+   
+    .mobileMenu {
+
+        display:block;
+    }
+
+    .desktopMenu {
+
+        display: block;
+    }
+
+
+    .desktopHomeLogo{
+        display:block;
+    }
+
+    .mobileHomeLogo {
+
+        display:block;
+    }
+
+}
+
+.link {
+
+    color:white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media only screen and (min-device-width: 769px){
+
+    .mobileMenu {
+
+        display:none;
+    }
+
+    .desktopMenu {
+
+        display:block;
+    }
+
+    .desktopHomeLogo{
+        display: block;
+    }
+
+    .mobileHomeLogo {
+
+        display: none;
+    }
+
+    .topLink {
+        float:left;
+        margin:7px 20px 10px;
+        padding:5px;
+        min-width: 100px;
+        text-align: center;
+        background:#334;
+        border-radius: 6px;
+    }
+
+    .topLinkSel {
+        float:left;
+        margin:7px 20px 10px;
+        padding:5px;
+        min-width: 100px;
+        text-align: center;
+        background: #37f;
+        border-radius: 6px;
+    }
+
+}
+
+

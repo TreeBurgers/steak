@@ -1,0 +1,26 @@
+.menuButton {
+    min-height:50px;
+    width: 140px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12pt;
+    margin:10px;
+    border-radius: 30px;
+    background-color: #fff;
+    color:black;
+}
+
+.menuButtonSel {
+    min-height:50px;
+    width: 140px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12pt;
+    margin:10px;
+    border-radius: 30px;
+    background-color: #28f;
+    color:white;
+}
+
+.menuButton .ant-select-focused .ant-select-selection {
+    outline: none;
+    box-shadow: none;
+}

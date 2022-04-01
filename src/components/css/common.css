@@ -1,0 +1,30 @@
+.submitButton {
+
+    margin:10px;
+    background:#00b;
+    color:white;
+    min-width:150px;
+    border-radius: 30px;
+    padding:4px;
+}
+
+.cancelButton {
+
+    margin:10px;
+    background:#900;
+    color:white;
+    min-width:150px;
+    border-radius: 30px;
+    padding:4px;
+}
+
+
+.actionButton {
+
+    margin:10px;
+    background:#084;
+    color:white;
+    min-width:150px;
+    border-radius: 30px;
+    padding:4px;
+}

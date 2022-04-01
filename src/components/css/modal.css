@@ -1,0 +1,18 @@
+.roundModal {
+	min-width: 80%;
+	color: white;
+}
+
+.roundModal .ant-modal-content {
+	border-radius: 30px;
+	background-image: linear-gradient(to right, #001, #235);
+	color: white;
+}
+
+.roundModal .ant-modal-header {
+	border-radius: 30px 30px;
+	background-color: transparent;
+	color: tomato;
+	font-size: 30pt;
+	margin: 0 auto;
+}

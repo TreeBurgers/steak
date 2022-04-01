@@ -1,0 +1,21 @@
+.walletBalance {
+    margin: 20px auto;
+    padding:10px;
+    background: #112;
+    border-radius: 50px;
+    max-width:300px;
+    max-height: 70px;
+    color:white;
+    font-size: 14pt;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.walletBalance .address {
+
+    font-size:12pt;
+}
+
+.walletBalance .balance {
+
+    font-size: 13pt;
+}

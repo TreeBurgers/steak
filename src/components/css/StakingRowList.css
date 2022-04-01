@@ -1,0 +1,15 @@
+.stakingRowList {
+
+    background-color: black;
+    color:white;
+    max-width: 80%;
+    margin:auto;
+    overflow-x:"auto";
+}
+
+.stakingListHeader {
+
+    background-color: #235;
+    color:wheat;
+    font-weight: 600;
+}

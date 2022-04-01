@@ -1,0 +1,16 @@
+.stakeRow {
+    background-color: transparent;
+}
+
+.stakeRow:hover {
+
+    background-color: #224;
+    cursor: pointer;
+}
+
+.stakeButton {
+
+    background-color: #346;
+    color:white;
+    min-width: 120px;
+}
