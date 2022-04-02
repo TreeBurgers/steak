@@ -103,7 +103,7 @@ export const Wallet: FC = () => {
 	return (
 		<WalletModalProvider>
 			<Wrapper>
-			<div style={{display:"flex",justifyContent: "space-between",marginLeft:"20%"}}>	
+			<div style={{display:"flex",justifyContent: "space-between"}}>	
 				<Navbar/>
 				<WalletMultiButton 
 					style={{

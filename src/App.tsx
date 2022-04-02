@@ -23,7 +23,7 @@ const App = () => {
 	const network = ParamStorage.getNetwork();
 
 	// You can also provide a custom RPC endpoint
-	const endpoint = "https://cool-aged-morning.solana-mainnet.quiknode.pro/b5e6746f8ab841bd370d373fb7dd78d1f7f61bfc/"
+	const endpoint = "https://lively-frosty-morning.solana-mainnet.quiknode.pro/ecfe4cce4da785522a49d2657f04128a232fd298/"
 
 	const [matchHome] = useRoute("/");
 
