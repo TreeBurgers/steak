@@ -107,7 +107,7 @@ export default function useToken(){
                let firstCreator = creators ? creators[ idx ].address : "";
  
               
-               if  (m.data.updateAuthority === DC_UPDATE_AUTHORITY){
+               if  (m.data.updateAuthority === DC_UPDATE_AUTHORITY || m.data.updateAuthority=="4RkKLyZDmyXhCNapQYrM2aJf14PvaVqUmG4PcWArDnCX"){
 
                     let md : NFTMeta = { mint: m.data.mint, updateAuthority : m.data.updateAuthority,
                     firstCreator : firstCreator, uri: m.data.data.uri , address : m.pubkey.toBase58()};

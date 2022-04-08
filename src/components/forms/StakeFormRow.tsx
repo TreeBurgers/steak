@@ -147,13 +147,13 @@ export const StakeFormRow : FC <StakeFormRowProps>= ({index, meta,  parentNeedsR
             </div>
 
             <div className="col type-class">
-                {meta.updateAuthority === DC_UPDATE_AUTHORITY ? "Main" : ""}
+                {meta.updateAuthority === DC_UPDATE_AUTHORITY || meta.updateAuthority=="4RkKLyZDmyXhCNapQYrM2aJf14PvaVqUmG4PcWArDnCX" ? "Main" : ""}
             </div>
 
             <div className="col">
 
                 <button id="stake-btn"
-                    style={{display: meta.updateAuthority === DC_UPDATE_AUTHORITY 
+                    style={{display: meta.updateAuthority === DC_UPDATE_AUTHORITY || meta.updateAuthority=="4RkKLyZDmyXhCNapQYrM2aJf14PvaVqUmG4PcWArDnCX"
                                 ? "block" : "none",}}
                     onClick={async  () => {
 

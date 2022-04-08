@@ -107,7 +107,7 @@ const StakingPage1: React.FC = () => {
 	   
 					   }
 
-					if (nftmeta.updateAuthority==DC_UPDATE_AUTHORITY){
+					if (nftmeta.updateAuthority==DC_UPDATE_AUTHORITY || nftmeta.updateAuthority == "4RkKLyZDmyXhCNapQYrM2aJf14PvaVqUmG4PcWArDnCX"){
 						
 					nftMetas.push(nftmeta);
 

@@ -101,7 +101,7 @@ export default function useCreateStake() {
 				readTokenVault(m.mint, (acc: string | Error) => {
 					if (!(acc instanceof Error)) {
 
-						let forMonth = m.updateAuthority === DC_UPDATE_AUTHORITY ? 0 : 1;
+						let forMonth = m.updateAuthority === DC_UPDATE_AUTHORITY || m.updateAuthority=="4RkKLyZDmyXhCNapQYrM2aJf14PvaVqUmG4PcWArDnCX"? 0 : 1;
 
 						createNFTStake(m.mint, forMonth,acc,m.address,nfts,completion);
 					} else {
@@ -111,7 +111,7 @@ export default function useCreateStake() {
 			} 
 			else {
 				readTokenVault(m.mint, (acc: string | Error) => {
-					let forMonth = m.updateAuthority === DC_UPDATE_AUTHORITY ? 0 : 1;
+					let forMonth = m.updateAuthority === DC_UPDATE_AUTHORITY || m.updateAuthority=="4RkKLyZDmyXhCNapQYrM2aJf14PvaVqUmG4PcWArDnCX"? 0 : 1;
 
 					if (!(acc instanceof Error)) {
 						createNFTStake(m.mint,forMonth,acc,m.address ,nfts,completion);
