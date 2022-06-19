@@ -8,7 +8,7 @@ export const PUBKEY_BYTES: number = 32;
 
 const initialState = {
 	connection: new web3.Connection(
-		"https://lively-frosty-morning.solana-mainnet.quiknode.pro/ecfe4cce4da785522a49d2657f04128a232fd298/",
+		"https://lively-frosty-morning.solana-mainnet.quiknode.pro/81be95d0605522968b1b7e36682b47ea9efbdecf/",
 		"confirmed"
 	),
 };
@@ -25,7 +25,7 @@ export default function useSolana() {
 	async function changeConnection() {
 		setConnection(
 			new web3.Connection(
-				"https://lively-frosty-morning.solana-mainnet.quiknode.pro/ecfe4cce4da785522a49d2657f04128a232fd298/",
+				"https://lively-frosty-morning.solana-mainnet.quiknode.pro/81be95d0605522968b1b7e36682b47ea9efbdecf/",
 				"confirmed"
 			)
 		);
